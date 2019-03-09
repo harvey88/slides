@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import data from '../data/data.json'
 import Slide from './Slide'
 import '../styled/styles.css'
@@ -18,13 +18,13 @@ class WrapperSlides extends Component{
 
     showSlide = () => {
         const { data: { slides }, slide: { currentSlide } } = this.state
-        // console.log('dfgdfg', slides[currentSlide])
         const delay = slides[currentSlide].delay ? slides[currentSlide].delay * 100 : 3000
         setTimeout( () => {
             this.currentSlide()
         }, delay)
         return (
             <Slide 
+                baseUrl={this.props.baseUrl} 
                 slide={slides[currentSlide]}
             />
         )
@@ -51,47 +51,31 @@ class WrapperSlides extends Component{
             }
     }
 
-
-    // generator = () => {
-    //     const { data: { slides } } = this.state
-    //     return function* gen() {
-    //         let current = 0
-    //         const length = slides.length
-    //         while(current <= length) {
-    //             console.log('slides[current]', slides[current])
-    //             yield slides[current]
-    //             current++
-    //         }
-    //     }
-    // } 
-
     render() {
-        // console.log('data', this.state.data)
+
         const { 
             data: { 
                 canvas: { 
                     display_height, 
                     display_width  
-                }, 
-                slides
+                }
             }
         } = this.state
         return(
             <div
                 style={{
-                    width: `${400}px`,
-                    height: `${400}px`,
+                    width: `${display_width}px`,
+                    height: `${display_height}px`,
                 }}
                 className='wrapper'
             >
                 <canvas 
                     className='canvas'
-                    width={400} 
-                    height={400}
+                    width={display_width} 
+                    height={display_height}
                 >
                 </canvas>
                 {this.showSlide()}
-                <button onClick={this.currentSlide}>click</button>
             </div>
             
         )
