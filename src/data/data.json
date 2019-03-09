@@ -1,0 +1,113 @@
+{
+    "canvas": {
+        "display_width": 1920,
+        "display_height": 1080
+    },
+    "slides": [{
+        "delay": 25,
+        "elements": [{
+            "type": "shape",
+            "layout": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "style": {
+                "background-color": "#ace100"
+            },
+            "token": "5ab8fd1e051faedf1c0af1ef"
+        }, {
+            "type": "media",
+            "layout": {
+                "left": 28.854166666666664,
+                "top": 7.4074074074074066,
+                "right": 25.937500000000007,
+                "bottom": 39.074074074074076
+            },
+            "media": {
+                "mime": "image/png",
+                "token": "9cf02c20-6adf-4b2c-bd9f-0331f467341d"
+            },
+            "token": "5ab8fdd7051faedf1c0af1f0"
+        }, {
+            "type": "text",
+            "layout": {
+                "left": 28.958333333333336,
+                "top": 63.70370370370371,
+                "right": 25.83333333333332,
+                "bottom": 2.962962962962962
+            },
+            "html": {
+                "text": "<p style=\"text-align: center;\"><span style=\"color: #fb0f2e; font-size: 2em;\"><strong>Test campaign</strong></span></p>"
+            },
+            "token": "5ab8fdf0051faedf1c0af1f1"
+        }],
+        "token": "5ab8fd0d051faedf1c0af1ee"
+    }, {
+        "delay": 17,
+        "elements": [{
+            "media": {
+                "token": "e150dfd1-6991-4bdb-aac9-31be352c23a4",
+                "mime": "video/mp4"
+            },
+            "layout": {
+                "bottom": 37.96296296296296,
+                "top": 28.703703703703702,
+                "right": 34.27083333333333,
+                "left": 32.395833333333336
+            },
+            "type": "media",
+            "token": "5c0ed7e10c305976d93fb808"
+        }],
+        "token": "5c0ed7dc0c305976d93fb807"
+    },
+    {
+        "delay": "",
+        "elements": [{
+            "media": {
+                "token": "e150dfd1-6991-4bdb-aac9-31be352c23a4",
+                "mime": "video/mp4"
+            },
+            "layout": {
+                "bottom": 37.96296296296296,
+                "top": 28.703703703703702,
+                "right": 34.27083333333333,
+                "left": 32.395833333333336
+            },
+            "type": "media",
+            "token": "5c0ed7e10c305976d93fb808"
+        },
+        {
+            "media": {
+                "token": "e150dfd1-6991-4bdb-aac9-31be352c23a4",
+                "mime": "video/mp4"
+            },
+            "layout": {
+                "bottom": 37.96296296296296,
+                "top": 28.703703703703702,
+                "right": 34.27083333333333,
+                "left": 32.395833333333336
+            },
+            "type": "media",
+            "token": "5c0ed7e10c305976d93fb808"
+        },
+        {
+            "media": {
+                "token": "e150dfd1-6991-4bdb-aac9-31be352c23a4",
+                "mime": "video/mp4"
+            },
+            "layout": {
+                "bottom": 37.96296296296296,
+                "top": 28.703703703703702,
+                "right": 34.27083333333333,
+                "left": 32.395833333333336
+            },
+            "type": "media",
+            "token": "5c0ed7e10c305976d93fb808"
+        }],
+        "token": "5c0ed7dc0c305976d93fb807"
+    }
+    ],
+    "token": "5ab8fd0d3f78390025080272"
+}
